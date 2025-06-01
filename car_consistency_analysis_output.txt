@@ -1,0 +1,63 @@
+================================================================================
+CAR MODEL CONSISTENCY ANALYSIS REPORT
+================================================================================
+
+ANALYSIS DESCRIPTION:
+--------------------------------------------------------------------------------
+This analysis identifies car models with consistent fuel efficiency (MPG) across different years.
+Consistency is measured using the Coefficient of Variation (CV), which is calculated as:
+CV = Standard Deviation / Mean
+A lower CV indicates more consistent MPG values. Models with CV < 0.1 (10%) are considered consistent.
+
+DATASET INFORMATION:
+--------------------------------------------------------------------------------
+Total number of car models in dataset: 305
+Number of consistent models (CV < 0.1): 29
+Percentage of consistent models: 9.51%
+
+DETAILED RESULTS:
+--------------------------------------------------------------------------------
+Most Consistent Car Models (CV < 0.1):
+
+Car Model                                Coefficient of Variation  Mean MPG        Std Dev MPG    
+-----------------------------------------------------------------------------------------------
+datsun pl510                             0.0000                      27.00            0.00
+mazda 626                                0.0067                      31.45            0.21
+volkswagen rabbit                        0.0121                      29.25            0.35
+dodge aspen                              0.0188                      18.85            0.35
+toyota corolla 1200                      0.0224                      31.50            0.71
+saab 99le                                0.0289                      24.50            0.71
+toyota mark ii                           0.0363                      19.50            0.71
+plymouth fury iii                        0.0403                      14.33            0.58
+ford galaxie 500                         0.0403                      14.33            0.58
+chevrolet chevelle malibu                0.0404                      17.50            0.71
+dodge colt                               0.0413                      27.30            1.13
+chevrolet chevette                       0.0426                      30.40            1.29
+amc matador (sw)                         0.0488                      14.50            0.71
+ford gran torino (sw)                    0.0524                      13.50            0.71
+ford ltd                                 0.0524                      13.50            0.71
+opel manta                               0.0566                      25.00            1.41
+chevrolet chevelle malibu classic        0.0633                      16.75            1.06
+honda civic cvcc                         0.0634                      34.55            2.19
+amc gremlin                              0.0662                      19.50            1.29
+plymouth reliant                         0.0692                      28.60            1.98
+ford gran torino                         0.0702                      14.83            1.04
+plymouth duster                          0.0705                      21.67            1.53
+honda accord                             0.0744                      34.20            2.55
+pontiac catalina                         0.0787                      14.67            1.15
+opel 1900                                0.0800                      26.50            2.12
+toyota corolla                           0.0809                      31.12            2.52
+subaru dl                                0.0842                      31.90            2.69
+amc matador                              0.0945                      15.70            1.48
+audi 100ls                               0.0987                      21.50            2.12
+
+SUMMARY:
+--------------------------------------------------------------------------------
+1. The most consistent car model is the Datsun PL510 with a CV of 0.0000
+2. Only about 9.51% of all car models show consistent MPG values (CV < 0.1)
+3. Most consistent models tend to be smaller, more fuel-efficient vehicles
+4. The analysis suggests that most car models show significant variation in MPG across years
+
+================================================================================
+Report generated on: 2025-06-01 19:51:00
+================================================================================
